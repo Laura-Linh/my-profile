@@ -1,0 +1,93 @@
+h1 {
+  text-align:center;
+  color:salmon;
+  font-size:35px;
+	font-family: 'Fleur De Leah', cursive;
+	font-weight:700;
+	letter-spacing: 2px;
+}
+h2 {
+  color:white;
+  background-color:salmon;
+  font-size: 35px;
+	font-family: 'Fleur De Leah', cursive;
+}
+body {
+	background-image: url(images/marbre.jpg);
+}
+p {
+  font-family: 'Birthstone', cursive;
+  font-size: 30px
+}
+h3 {
+  font-family: 'Birthstone', cursive;
+  font-size: 30px;
+  text-align: center;
+ background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+div {
+  text-align: center;
+}
+#Laura {
+  border-radius: 50%;
+}
+div#partie1 {
+padding: 1px;
+border-radius: 4px;
+box-shadow: 10px 10px 5px grey;
+margin: 0px 100px;
+}
+div#partie2 {
+  position: absolute;
+  right: 10px;
+  width: 550px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 4px;
+}
+div#partie3 {
+  position: absolute;
+  left: 10px;
+  width: 550px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 4px;
+}
+div#partie4 {
+  margin: 500px 100px 0px 100px;
+border-radius: 4px;
+box-shadow: 10px 10px 5px grey;
+}
+div#fin {
+  margin: 50px 100px 0px 100px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 4px;
+}
+i {
+  font-size: 50px;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto;
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+ .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+@media (min-width: 540px) and (max-width: 720px) {
+ .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+.container  {
+    width: 300px;
+  }
+}
