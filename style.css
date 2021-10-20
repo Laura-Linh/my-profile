@@ -12,6 +12,9 @@ h2 {
   font-size: 35px;
 	font-family: 'Fleur De Leah', cursive;
 }
+a {
+  color: black;
+}
 body {
 	background-image: url(images/marbre.jpg);
 }
