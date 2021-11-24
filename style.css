@@ -43,17 +43,25 @@ div#partie1 {
   box-shadow: 10px 10px 5px grey;
   margin: 0px 100px;
 }
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card {
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
 div#partie2 {
-  position: absolute;
-  right: 10px;
   width: 550px;
   padding: 10px;
   box-shadow: 10px 10px 5px grey;
   border-radius: 4px;
 }
 div#partie3 {
-  position: absolute;
-  left: 10px;
   width: 550px;
   padding: 10px;
   box-shadow: 10px 10px 5px grey;
