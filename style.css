@@ -2,21 +2,21 @@ h1 {
   text-align:center;
   color:salmon;
   font-size:35px;
-  font-family: 'Fleur De Leah', cursive;
-  font-weight:700;
-  letter-spacing: 2px;
+	font-family: 'Fleur De Leah', cursive;
+	font-weight:700;
+	letter-spacing: 2px;
 }
 h2 {
   color:white;
   background-color:salmon;
   font-size: 35px;
-  font-family: 'Fleur De Leah', cursive;
+	font-family: 'Fleur De Leah', cursive;
 }
 a {
   color: black;
 }
 body {
-  background-image: url(images/marbre.jpg);
+	background-image: url(images/marbre.jpg);
 }
 p {
   font-family: 'Birthstone', cursive;
@@ -45,15 +45,15 @@ div#partie1 {
 }
 .cards {
   display: flex;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 .card {
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+	padding: 20px;
   flex-basis: 250px;
-  flex-grow: 1;
-  margin: 10px;
+	flex-grow: 1;
+	margin: 10px;
 }
 div#partie2 {
   width: 550px;
